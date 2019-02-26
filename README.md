@@ -29,6 +29,7 @@ String data = "Example"
       .send();
 ```
 In this example *"timeStamp"* has to be an integer, but *"data"* could be any type OOCSI can send.
+An example for Arduino is [available in the examples](/Examples/Arduino_getTime/).
 
 **Database requesting**
 
