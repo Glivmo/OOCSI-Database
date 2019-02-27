@@ -19,7 +19,7 @@ void setup() {
   // connect to OOCSI server running on the same machine (localhost)
   // with "senderName" to be my channel others can send data to
   // (for more information how to run an OOCSI server refer to: https://iddi.github.io/oocsi/)
-   oocsi = new OOCSI(this, "Tyria_T05"/* + System.currentTimeMillis()*/  , "oocsi.id.tue.nl");
+   oocsi = new OOCSI(this, "Tyria_T05", "oocsi.id.tue.nl");
 
   println("");
 }
