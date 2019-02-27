@@ -29,10 +29,7 @@ void setup() {
   oocsi.setActivityLEDPin(LED_BUILTIN);
 
   oocsi.connect(OOCSIName, hostserver, ssid, password, processOOCSI);
-}
-
-// put your main code here, to run repeatedly:
-void loop() {
+   
   // create a new message
   for (int i = 1; i < 11; i++) {
     oocsi.newMessage("Tyria_World_Data");
@@ -49,6 +46,11 @@ void loop() {
     oocsi.check();
     delay(1000);
   }
+}
+
+// put your main code here, to run repeatedly:
+void loop() {
+  
 }
 
 void processOOCSI() {
