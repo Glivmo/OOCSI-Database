@@ -17,6 +17,7 @@ oocsi = new OOCSI(this, "Tyria_T05" , "oocsi server");
 Next up is the database channel. For this database you should use the Channel "Tyria_World_Data". A few important things about communicating with the channel are as follows:
 1. Always send a timestamp integer named *"timeStamp"* in a *MDDHHMMSS* format.
 2. Don't send data more than once a second. Since we work with a system based on seconds, sending data more than once a second will not benefit you and only overcrowd the server.
+**Attention: Right now this information is not up to date. Please look at the "send" examples in "examples".**
 An example of sending data in Processing is the following:
 ```Processing
 timeStamp = int(nf(month(), 1) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2)); // timestamp in mddhhmmss format
