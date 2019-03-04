@@ -1,3 +1,9 @@
+//
+// ATTENTION! Apparently OOCSI already has the NTPClient built-in. Therefor 
+// The NTPClient library will not work. A working OOCSI NTPClient request will
+// be added to this repository later
+//
+
 /******************************************************************************
    Example of retrieving the current time in a MDDHHMMSS format 
    on a internet enabled Arduino. Based on https://github.com/taranais/NTPClient.
