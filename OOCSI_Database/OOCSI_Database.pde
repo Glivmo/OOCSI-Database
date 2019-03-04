@@ -5,7 +5,7 @@
  https://github.com/Glivmo/OOCSI-Database
  
  TU/e course of faculty of Industrial Design by Mathias Funk
- DBSU10 - Tyria Team 05
+ DBSU10 (2018-3) - Tyria Team 05
  
  For more information on OOCSI refer to: https://iddi.github.io/oocsi/
  ******************************************************************************/
