@@ -3,8 +3,6 @@ import nl.tue.id.oocsi.*;
 // **************************************************
 // This example requires a running OOCSI server!
 //
-// How to do that? Check: Examples > LocalServer
-//
 // More information how to run an OOCSI server
 // can be found here: https://iddi.github.io/oocsi/)
 //
@@ -21,7 +19,7 @@ void setup() {
   // connect to OOCSI server running on the same machine (localhost)
   // with "senderName" to be my channel others can send data to
   // (for more information how to run an OOCSI server refer to: https://iddi.github.io/oocsi/)
-  oocsi = new OOCSI(this, "Tyria_T05", "oocsi.id.tue.nl");  //IMPORTANT! OOCSI name must be World_GroupName (i.e. Tyria_T05)
+  oocsi = new OOCSI(this, "Tyria_T01", "oocsi.id.tue.nl");  //IMPORTANT! OOCSI name must be World_GroupName (i.e. Tyria_T01)
   for (int i=1; i < 11; i++) {
     oocsi.channel("Tyria_World_Data")
       .data("timeStamp", 2270700 + (i-1))
