@@ -8,14 +8,14 @@
 
 // use this if you want the OOCSI-ESP library to manage the connection to the Wifi
 // SSID of your Wifi network, the library currently does not support WPA2 Enterprise networks
-const char* ssid = "Tyria_Hotspot";
+const char* ssid = "SSID";
 // Password of your Wifi network.
-const char* password = "You're welcome";
+const char* password = "PASSWORD";
 
 // name for connecting with OOCSI (unique handle)
-const char* OOCSIName = "Tyria_T05";
+const char* OOCSIName = "Tyria_T01";
 // put the adress of your OOCSI server here, can be URL or IP address string
-const char* hostserver = "oocsi.id.tue.nl";
+const char* hostserver = "OOCSI_SERVER";
 
 // OOCSI reference for the entire sketch
 OOCSI oocsi = OOCSI();
